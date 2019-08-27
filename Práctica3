@@ -1,0 +1,5 @@
+Dado un precio, calcular su descuento considerando que si el precio es mayor a 100, el descuento será del 10% De otro modo, descontar solo un 2%
+
+Un algoritmo que lea dos números y calcule su suma, su resta, su multiplicación su división
+
+Leer 3 números que van a denotar una fecha de día, mes y año. Y verificar si es una fecha válida
