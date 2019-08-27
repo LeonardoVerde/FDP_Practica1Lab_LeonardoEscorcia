@@ -1,0 +1,467 @@
+1  ls
+
+    2  ls .
+
+    3  ls -l
+
+    4  ls /
+
+    5  ls /home
+
+    6  ls
+
+    7  ls -l /home
+
+    8  man ls
+
+    9  mal ls
+
+   10  man ls
+
+   11  ls /usr
+
+   12  ls ..
+
+   13  ls ../
+
+   14  ls ../../usr
+
+   15  ls /usr
+
+   16  ls .
+
+   17  ls..
+
+   18  ls ..
+
+   19  ls ../../usr
+
+   20  ls ../
+
+   21  ls /usr
+
+   22  ls ../
+
+   23  ls /alumno
+
+   24  mkdir Práctica2
+
+   25  cd Práctica2
+
+   26  touch Práctica2.txt
+
+   27  ls
+
+   28  cd ..
+
+   29  ls
+
+   30   ls /usr
+
+   31  ls
+
+   32  cd Práctica2
+
+   33  ls
+
+   34  pwd
+
+   35  cd ..
+
+   36  pwd
+
+   37  cd ..
+
+   38  pwd
+
+   39   cd /alumno
+
+   40  ls /alumno
+
+   41  cd .
+
+   42  pwd
+
+   43  find . -name Práctica2
+
+   44  ls ..
+
+   45  cd .
+
+   46  cd
+
+   47  pwd
+
+   48  find . -name Práctica2
+
+   49  ls
+
+   50  cd Práctica2
+
+   51  ls
+
+   52  find . -name Práctica2
+
+   53  cd .
+
+   54  cd ..
+
+   55  pwd
+
+   56  ls
+
+   57  cd Práctica2
+
+   58  ls
+
+   59  cp Práctica.txt ../Práctica2 .
+
+   60  cp Práctica2.txt ../Práctica2 .
+
+   61  cp NewPráctica2.txt ../usr . 
+
+   62  cp NewPráctica2.txt Práctica2.txt
+
+   63  cd..
+
+   64  cd ..
+
+   65  ls
+
+   66  cp Práctica2.txt newPráctica2.txt
+
+   67  cd Práctica2
+
+   68  ls
+
+   69  cp Práctica2.txt newPráctica2.txt
+
+   70  ls
+
+   71  cp ../Práctica2 .
+
+   72  cd ..
+
+   73  cp ../Práctica2 .
+
+   74  cmkdir nuevoDir
+
+   75  mkdir nuevoDir
+
+   76  ls
+
+   77  cp ../Práctica2 . 
+
+   78  mv Práctica2/Práctica2.txt nuevoDir
+
+   79  ls
+
+   80  cd Práctica2
+
+   81  ls
+
+   82  cd ..
+
+   83  man rm
+
+   84  ls
+
+   85  rm nuevoDir
+
+   86  rm Práctica2
+
+   87  ls
+
+   88  cd Práctica2
+
+   89  rm Práctica2
+
+   90  rm Práctica2 -f
+
+   91  ls
+
+   92  cd ..
+
+   93  rm Práctica2 -f
+
+   94  ls
+
+   95  rm Práctica2 
+
+   96  rm Práctica2 -f
+
+   97  rm nuevoDir -f
+
+   98  rm nuevoDir 
+
+   99  ls
+
+  100  cd Práctica2
+
+  101  ls
+
+  102  rm newPráctica2.txt
+
+  103  ls
+
+  104  cd ..
+
+  105  rm Práctica2
+
+  106  ls
+
+  107  cd nuevoDir
+
+  108  ls
+
+  109  rm Práctica2.txt
+
+  110  ls
+
+  111  cd..
+
+  112  cd ..
+
+  113  cd Práctica2
+
+  114  mkdir Fundamentos de Programación
+
+  115  mkdir Álgebra 
+
+  116  mkdir Cálculo y Geometría Analítica
+
+  117  mkdir Química
+
+  118  mkdir Fundamentos de Física
+
+  119  mkdir Física
+
+  120  ls
+
+  121  rm Fundamentos de Programación
+
+  122  ls
+
+  123  cd Programación
+
+  124  Leonardo Alberto Escorcia Traba.txt
+
+  125  ls
+
+  126  rm nuevoDir
+
+  127  rm -nuevoDir
+
+  128  rm -f nuevoDir
+
+  129  ls
+
+  130  cd ..
+
+  131  ls
+
+  132  cd ..
+
+  133  ls
+
+  134  rm -f nuevoDir
+
+  135  cd Práctica2
+
+  136  ls
+
+  137  touch Leonardo Alberto Escorcia Traba.txt
+
+  138  ls
+
+  139  rm Práctica2
+
+  140  eco "hola"
+
+  141  mv Práctica2/Leonardo Alberto Escorcia Traba.txt Química
+
+  142  ls
+
+  143  cd Fundamentos
+
+  144  ls
+
+  145  cd ..
+
+  146  cd Física/
+
+  147  touch Leonardo Alberto Escorcia Traba.txt
+
+  148  tocuh 317522851.txt
+
+  149  touch 317522851.txt
+
+  150  ls
+
+  151  rm Leonardo
+
+  152  ls
+
+  153  rm Alberto
+
+  154  rm Escorcia
+
+  155  rm Traba.txt
+
+  156  ls
+
+  157  touch Leonardo.txt
+
+  158  ls
+
+  159  cd Leonardo.txt
+
+  160  eco Leonardo.txt "hola"
+
+  161  echo "hoLA"
+
+  162  LS
+
+  163  echo "Hola"
+
+  164  cd ..
+
+  165  rm Analítica
+
+  166  cp Leonardo.txt Leonardo.txt
+
+  167  ls
+
+  168  cd Programación
+
+  169  ls
+
+  170  cd ..
+
+  171  cd Física
+
+  172  ls
+
+  173  cp Leonardo.txt
+
+  174  cp../Leonardo.txt . 
+
+  175  echo "Hola" > ./Leonardo.txt
+
+  176  cat ./Leonardo.txt
+
+  177  cp Leonardo.txt
+
+  178  clear
+
+  179  ls
+
+  180  ls
+
+  181  cd ..
+
+  182  cd ..
+
+  183  ls
+
+  184  rm Práctica2
+
+  185  rm Práctica2 -f
+
+  186  rm -f Práctica2
+
+  187  cd Práctica2
+
+  188  ls
+
+  189  cd Física/
+
+  190  ls
+
+  191  cp Leonardo.txt Leonardo.txt
+
+  192  cp 
+
+  193  ls
+
+  194  history
+
+  195  ls
+
+  196  cd Práctica2
+
+  197  ls
+
+  198  cd Cálculo/
+
+  199  touch archivo.txt
+
+  200  ls
+
+  201  echo "Leonardo, 317522851" > ./archivo.txt 
+
+  202  cat ./archivo.txt 
+
+  203  cd ..
+
+  204  ls 
+
+  205  cd 
+
+  206  cd Química
+
+  207  cd Práctica2
+
+  208  cd Química/
+
+  209  ls
+
+  210  rm Alberto 
+
+  211  rm Escorcia
+
+  212  rm Traba.txt
+
+  213  touch archivo.txt
+
+  214  echo "Leonardo, 317522851" > ./archivo.txt
+
+  215  cat archivo.txt
+
+  216  cd ..
+
+  217  ls
+
+  218  Álgebra
+
+  219  cd Álgebra
+
+  220  ls
+
+  221  touch archivo.txt
+
+  222  ls
+
+  223  echo "Leonardo, 317522851" > ./archivo.txt
+
+  224  cat ./archivo.txt
+
+  225  Siria41:Álgebra alumno$ cat 
+
+  226  cd ..
+
+  227  cd Programación
+
+  228  ls
+
+  229  touch archivo.txt
+
+  230  echo "Leonardo, 317522851" > ./archivo.txt
+
+  231  cat ./archivo.txt
+
+  232  cd ..
+
+  233  ls
+
+  234  history
