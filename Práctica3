@@ -1,5 +1,51 @@
-Dado un precio, calcular su descuento considerando que si el precio es mayor a 100, el descuento será del 10% De otro modo, descontar solo un 2%
+Dado un precio, calcular su descuento considerando que si el precio es mayor a 100, el descuento será del 10% 
+De otro modo, descontar solo un 2%
+
+Consultar el producto y el precio de tal producto
+Si el precio es 0 o negativo, regresar al paso 1
+Si el precio es diferente a cero y positivo, entonces considerar el siguiente casos
+Si el precio es mayor a 100 pesos, aplicar un 10% de descuento.
+De otro modo, aplicvar un 2% del descuento.
+Una vez hecho esto, hay que multiplicar el descuento por el precio del producto
+Despues, hay que hacer una operaciòn de resta, el precio del producto menos el valor de la multiplicación hecha en el paso anterior.
+Por último, regresar el precio total con descuento aplicado.
 
 Un algoritmo que lea dos números y calcule su suma, su resta, su multiplicación su división
 
+Solicitar dos números
+Si hay menos de dos números, solicitar un número más.
+Si hay más de dos números, regresar al paso 1.
+En la suma, puede haber tres casos
+Sí los números son iguales, pero de signo diferente, la suma es 0
+Si un número es 0, el resultado sera el otro número
+De otro modo, sumar los dos números y regresar el resultado
+En la resta puede haber tres casos
+Sí los números son iguales, la resta da 0
+Sí un número es 0, el resultado es el otro número, dependiendo de la posición del número en la resta
+De otro modo, restar los dos números y regresar el resultado
+En la multiplicación puede haber cuatro casos
+Sí un número es 0, el resultado sera 0
+Sí un número es 1, el resultado sera el valor del otro número
+Sí un número es -1, el resultado sera el valor negativo del otro número
+De otro modo, multiplicar los dos números y regresar el resultado
+Hacer la operación de la división
+Regresar las 4 operaciones
+
+
 Leer 3 números que van a denotar una fecha de día, mes y año. Y verificar si es una fecha válida
+
+Solicitar tres números 
+Si hay menos de 3 números, solicitar números hasta llegar a 3 números
+Si hay más de 3 números, regresar al paso 1
+El primer número es el día
+Sí el número es negativo, 0 o mayor a 31, es un día no válido, y por lo tanto, una fecha no válida
+Si el número es 28, 29, 30, 0 31 considerar los siguientes casos
+Sí el mes es un número diferente de 1, 2, 4, 6, 9 y 11 el número no debe ser mayor a 30 
+Si el mes es el número 2, considerar los siguientes casos
+Si el año dividido entre 4 da un residuo de 0, entonces el número no puedo ser mayor a 29
+De otro modo, el número no puede ser mayor a 28
+El segundo número es el mes
+Sí el segundo número es negativo, 0 o mayor a 12, es un mes no válido, y por lo tanto, una fecha no válida
+El tercer número es el año
+Sí el número es negativo, es un año no válido, y por lo tanto, una fecha no válida.
+Regresar la fecha
